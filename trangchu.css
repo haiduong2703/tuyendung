@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+.header {
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+.header img {
+  width: 240px;
+  height: 120px;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+.header i {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  display: none;
+}
+.header ul {
+  margin-left: 400px;
+  margin-top: 50px;
+  display: flex;
+}
+.header a {
+  text-decoration: none;
+  margin-right: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.red1 {
+  color: red;
+}
+.red2 {
+  color: red;
+}
+.allow {
+  font-size: 30px;
+  text-align: center;
+  line-height: 50px;
+}
+#Home {
+  border-top: 1px solid black;
+  text-align: center;
+  margin-top: 5rem;
+}
+#ChiTiet {
+  width: 70%;
+  margin-top: 50px;
+  margin-left: 15%;
+  font-size: 20px;
+}
+#ChiTiet p {
+  line-height: 30px;
+}
+#ChiTiet img {
+  width: 500px;
+  height: 400px;
+  margin-left: 200px;
+}
+.allow1 {
+  font-size: 30px;
+  line-height: 30px;
+}
+.tuyendung {
+  margin-top: 2rem;
+  text-align: center;
+}
+.tuyendungs {
+  display: flex;
+}
+.tuyendungs > div {
+  margin-top: 3rem;
+  margin-right: 4rem;
+}
+.tuyendungs ul li {
+  list-style: square;
+}
+.note {
+  margin-top: 2rem;
+}
+#HoiDap {
+  width: 70%;
+  margin-top: 100px;
+  margin-left: 15%;
+  font-size: 20px;
+}
+#HoiDap h4 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#HoiDap .input input {
+  height: 30px;
+  width: 200px;
+}
+#HoiDap button {
+  height: 34px;
+}
+#LienHe {
+  width: 70%;
+  margin-top: 100px;
+  margin-left: 15%;
+  font-size: 20px;
+}
+@media only screen and (max-width: 1024px) {
+  #ChiTiet img {
+    width: 50%;
+    height: 30%;
+    margin-left: 0px;
+  }
+  .tuyendungs {
+    flex-direction: column;
+  }
+  .header img {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+  .header i {
+    display: block;
+  }
+  .header {
+    flex-direction: column;
+    align-items: unset;
+  }
+  .header > ul {
+    display: none;
+  }
+  .header > i > ul {
+    font-family: "Helvetica Neue", Helvetica, Arial;
+    margin-left: 0px;
+    margin-top: 0px;
+    flex-direction: column;
+    position: absolute;
+    width: 130px;
+    right: 10px;
+    line-height: 30px;
+    display: none;
+  }
+}
+.display {
+  display: block;
+}
